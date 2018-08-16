@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
         songList = (ListView)findViewById(R.id.songList);
 
-        checkPermission();
+        checkPermission();//permission
     }
     private void checkPermission() {
         if (Build.VERSION.SDK_INT >= 23) {
